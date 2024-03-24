@@ -27,11 +27,11 @@ import exercise24.Ex24;
 import exercise25.Ex25;
 import exercise26.Ex26;
 
-public class Console{
+public class Programa{
     public static void main(String[] args) {
             int n = 0;
         do{
-            System.out.printf("Escolha uma atividade para executar\n(1 - 20)\nInput:");
+            System.out.printf("Escolha uma atividade para executar\n(1 - 26)\nInput:");
             int value = UL.lerInteiro();
             switch (value) {
                 case 1:
