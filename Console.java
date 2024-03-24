@@ -1,4 +1,32 @@
 import java.util.Scanner;
+
+import exercise1.Ex1;
+import exercise2.Ex2;
+import exercise3.Ex3;
+import exercise4.Ex4;
+import exercise5.Ex5;
+import exercise6.Ex6;
+import exercise7.Ex7;
+import exercise8.Ex8;
+import exercise9.Ex9;
+import exercise10.Ex10;
+import exercise11.Ex11;
+import exercise12.Ex12;
+import exercise13.Ex13;
+import exercise14.Ex14;
+import exercise15.Ex15;
+import exercise16.Ex16;
+import exercise17.Ex17;
+import exercise18.Ex18;
+import exercise19.Ex19;
+import exercise20.Ex20;
+import exercise21.Ex21;
+import exercise22.Ex22;
+import exercise23.Ex23;
+import exercise24.Ex24;
+import exercise25.Ex25;
+import exercise26.Ex26;
+
 public class Console{
     public static void main(String[] args) {
             int n = 0;
