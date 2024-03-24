@@ -1,12 +1,16 @@
 LISTA DE EXERCÍCIOS DE CLASSES, MÉTODOS E PACOTES
+
 OBJETIVOS
 ꟷ Praticar o uso de classes, métodos e pacotes.
+
 ORIENTAÇÕES
 ꟷ Caso tenha dificuldade na resolução de algum exercício, avance para o próximo e volte a tentar
 depois.
+
 ꟷ Evite copiar exemplos da internet, ChatGPT ou mesmo dos colegas. Caso tenha dúvidas
 pergunte, mas evite olhar o programa pronto para que seu cérebro possa processar as informações
 e encontre a solução do problema.
+
 EXERCÍCIOS
 
 1. Escrever um programa que leia o nome de um aluno e as notas das três provas que ele obteve
