@@ -42,7 +42,7 @@ o custo ao consumidor do mesmo.
 Calcular a sua média (aritmética), informar o nome e sua menção aprovado (media >= 7),
 Reprovado (media <= 5) e Recuperação (media entre 5.1 a 6.9).
 
-9. Ler 80 números e ao final informar quantos número(s) est(á)ão no intervalo entre 10 (inclusive)
+9. Ler 80 números e ao final informar quantos número(s) está(ão) no intervalo entre 10 (inclusive)
 e 150 (inclusive).
 
 10. Faça um programa que receba a idade de um número finito de pessoas e mostre mensagem
