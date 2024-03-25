@@ -14,5 +14,6 @@ public class Ex6{
         input.nextLine();
         Produto product = new Produto(productName, money, acrescimo);
         System.out.println("O produto '"+ product.name+"' tem um valor base de "+ product.cost+" e uma taxa de acrescimo de "+ product.tax+"%. Sendo seu valor total de "+ product.sumValue());
+        Input.close();
     }
 }

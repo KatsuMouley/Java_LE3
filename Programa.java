@@ -112,7 +112,7 @@ public class Programa{
                 case 26:
                     Ex26.run();                    
                     break;
-                    
+
                 default:
                     break;
             }
@@ -121,5 +121,6 @@ public class Programa{
             Scanner input = new Scanner(System.in);
             n = input.nextInt();
         } while(n == 1);
+        Input.close();
     }
 }

@@ -1,5 +1,7 @@
 package exercise4;
 import java.util.Scanner;
+
+import javax.swing.InputMap;
 public class Ex4{
     public static void run(){
         Scanner input = new Scanner(System.in);
@@ -11,6 +13,6 @@ public class Ex4{
         input.nextLine();
         ConvertToReal conversion = new ConvertToReal(cotacaoDolar, money);
         System.out.println("Você tem "+ conversion.toReal()+ "R$ em sua conta");
-        
+        Input.close();
     }
 }

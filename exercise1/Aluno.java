@@ -21,7 +21,7 @@ public class Aluno {
     }
     public void media(){
         for (int i = 0; i < notas.length ; i++) {
-         media += notas[i];   
+        media += notas[i];   
         }
         media = media / 3;
         System.out.println("A média de notas do aluno "+ name + " é igual a " + media);
