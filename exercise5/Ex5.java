@@ -4,7 +4,7 @@ public class Ex5{
     public static void run(){
         Scanner input = new Scanner(System.in);
         double money;
-        System.out.println("Qual o valor da compra?(R$)?");
+        System.out.println("Qual o valor da compra?");
         money = input.nextDouble();
         input.nextLine();
         MamaoAcucar prestacao = new MamaoAcucar(money);
