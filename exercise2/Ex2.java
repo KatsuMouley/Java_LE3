@@ -9,6 +9,7 @@ public class Ex2{
         combus = input.nextDouble();
         System.out.println("Quantos km/h foram percorridos?");
         kmPercorridos = input.nextInt();
+        input.nextLine();
         Automovel veiculo = new Automovel(combus, kmPercorridos);
         System.out.println("O Consumo médio do veículo é de "+ veiculo.consuMedio() + " km/L");
     }

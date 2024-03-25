@@ -30,8 +30,7 @@ quantidade de dólares disponíveis com o usuário.
 5. A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros.
 Faça um programa que receba um valor de uma compra e mostre o valor das prestações.
 
-6. Faça um programa que receba o preço de custo de um produto e mostre o valor de venda. Sabese que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo
-usuário.
+6. Faça um programa que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
 
 7. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a percentagem do
 distribuidor e dos impostos (aplicados, primeiro os impostos sobre o custo de fábrica, e depois a

@@ -10,6 +10,7 @@ public class Ex1{
             System.out.printf("Insira a nota[%d] do aluno:", i + 1);
             notas[i] = input.nextDouble();
         }
+        input.nextLine();
         Aluno aluno = new Aluno(name, notas[0] ,notas[1] ,notas[2]);
         aluno.media();
     }
