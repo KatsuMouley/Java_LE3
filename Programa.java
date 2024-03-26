@@ -30,8 +30,6 @@ import exercise26.Ex26;
 public class Programa{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-            int n = 0;
-        do{
             System.out.printf("Escolha uma atividade para executar\n(1 - 26)\nInput:");
             int value = UL.lerInteiro();
             switch (value) {
@@ -117,10 +115,6 @@ public class Programa{
                 default:
                     break;
             }
-            
-            System.out.printf("Do you want to execute again?: (1)Yes (0)No\nInput:");
-            n = input.nextInt();
-        } while(n == 1);
         input.close();
     }
 }
