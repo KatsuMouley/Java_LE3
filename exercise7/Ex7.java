@@ -8,5 +8,6 @@ public class Ex7{
         money = input.nextDouble();input.nextLine();
         Carro car = new Carro(money);
         System.out.printf("O custo total do carro será de %.2fR$\n", car.imposto());
+        input.close();
     }
 }

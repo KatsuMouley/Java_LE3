@@ -22,7 +22,6 @@ public class Ex10 {
                 System.out.println("Essa pessoas é menor de idade");
             }
         }
-
-        
+        enter.close();
     }
 }

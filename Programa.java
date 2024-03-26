@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import exercise1.Ex1;
 import exercise2.Ex2;
+import exercise3.Ex3;
 import exercise4.Ex4;
 import exercise5.Ex5;
 import exercise6.Ex6;
@@ -25,7 +26,6 @@ import exercise23.Ex23;
 import exercise24.Ex24;
 import exercise25.Ex25;
 import exercise26.Ex26;
-import exercise3.Ex3;
 
 public class Programa{
     public static void main(String[] args) {

@@ -13,5 +13,6 @@ public class Ex1{
         input.nextLine();
         Aluno aluno = new Aluno(name, notas[0] ,notas[1] ,notas[2]);
         aluno.media();
+        input.close();
     }
 }

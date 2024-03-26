@@ -12,5 +12,6 @@ public class Ex2{
         input.nextLine();
         Automovel veiculo = new Automovel(combus, kmPercorridos);
         System.out.println("O Consumo médio do veículo é de "+ veiculo.consuMedio() + " km/L");
+        input.close();
     }
 }

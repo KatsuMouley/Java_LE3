@@ -16,5 +16,6 @@ public class Ex3{
         Vendedor vendedor1 = new Vendedor(nome, totalVendas, salarioFixo);
         System.out.println("O vendedor "+vendedor1.nome+" fez um total de "+ vendedor1.totalVendas +"R$ em vendas este mês." );
         System.out.println("Seu salário fixo é de "+ vendedor1.salarioFixo+", seu salário este mês foi de "+vendedor1.salarioMes());
+        input.close();
     }
 }

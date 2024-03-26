@@ -9,5 +9,6 @@ public class Ex5{
         input.nextLine();
         MamaoAcucar prestacao = new MamaoAcucar(money);
         System.out.println("Você realizou uma compra na loja Mamão com açucar, e o pagamento será realizado em 5 prestações sem juros, sendo cada uma no valor de "+ prestacao.parcela(5)+"R$");
+        input.close();
     }
 }
