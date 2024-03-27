@@ -11,7 +11,6 @@ import exercise8.Ex8;
 import exercise9.Ex9;
 import exercise10.Ex10;
 import exercise11.Ex11;
-import exercise12.Ex12;
 import exercise13.Ex13;
 import exercise14.Ex14;
 import exercise15.Ex15;
