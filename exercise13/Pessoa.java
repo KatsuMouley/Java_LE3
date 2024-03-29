@@ -11,4 +11,12 @@ public class Pessoa {
         this.sexo = sexo;
     }
     
+    public boolean militar(){
+            //Estes critérios não definem minha posição em relação ao assunto, favor não me cancelem
+        if (idade > 17 && (sexo == 'm' || sexo == 'M') && (saude == 'g' || saude == 'G')) {
+            return true;   
+        } else {
+            return false;
+        }
+    }
 }
