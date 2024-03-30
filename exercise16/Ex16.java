@@ -7,11 +7,10 @@ public class Ex16 {
     public static void run() {
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        Funcionarios[] funcionarios = new Funcionarios[5]; // Apenas 5 funcionários para simplificação
+        Funcionarios[] funcionarios = new Funcionarios[5]; // 584 funcionários é demais, por isso simplificamos para apenas 5
         
-        // Inicialização dos funcionários com salários aleatórios
         for (int i = 0; i < funcionarios.length; i++) {
-            double salario = rand.nextDouble() * 30000 + 1500; // Salário aleatório entre 1500 e 31500
+            double salario = rand.nextDouble() * 30000 + 1500;
             funcionarios[i] = new Funcionarios(salario);
         }
         
