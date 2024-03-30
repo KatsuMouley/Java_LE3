@@ -23,5 +23,6 @@ public class Ex14 {
                 System.out.println("O produto ["+(i+1)+"] teve um prejuizo de "+produtos[i].lucro());
             }
         }
+        input.close();
     }
 }
