@@ -1,41 +1,54 @@
 package exercise16;
+
 import java.util.Scanner;
 import java.util.Random;
-//Esse programa é gigante demais namoral, 584 funcionários requerem valores aleatórios para determinar o salário de todos ou uma simplificação para 5 funcionários >:1
-//Eu gosto do meu input.nextDouble(); >:³³£¢¢¬¬¹²³
+
 public class Ex16 {
-    public static void run(){
+    public static void run() {
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        int aleatorio;
-        Funcionarios[] funcionario = new Funcionarios[584];
-        for (int i = 0; i < funcionario.length; i++) {
-            aleatorio = rand.nextInt(100)+1;
-            //ESTA PARTE DO CÓDIGO DECIDE O SALÁRIO DOS FUNCIONÁRIOS ATRAVÉS DE UMA PORCENTAGEM
-            if (aleatorio < 6) {//5%
-                funcionario[i] = new Funcionarios('D');// 5% dos funcionários da empresa ganham mais do que 20 salarios minimos
-            } else if (aleatorio > 5 && aleatorio < 21) {//15%
-                funcionario[i] = new Funcionarios('C');// 15% dos funcionários da empresa ganham até 20 salarios minimos
-            } else if (aleatorio > 20 && aleatorio < 51) {//30%
-                funcionario[i] = new Funcionarios('B');// 30% dos funcionários da empresa ganham até 10 salarios minimos
-            } else if (aleatorio > 50 && aleatorio < 101) {//50%
-                funcionario[i] = new Funcionarios('A');// 50% dos funcionários da empresa ganham menos do que 3 salarios minimos
-            }
+        Funcionarios[] funcionarios = new Funcionarios[5]; // Apenas 5 funcionários para simplificação
+        
+        // Inicialização dos funcionários com salários aleatórios
+        for (int i = 0; i < funcionarios.length; i++) {
+            double salario = rand.nextDouble() * 30000 + 1500; // Salário aleatório entre 1500 e 31500
+            funcionarios[i] = new Funcionarios(salario);
         }
+        
         char opt;
-        System.out.println("Você quer ver os salarios sem o reajuste?");
-        System.out.println("(a)mostrar todos\n(b)ver apenas o primeiro\n(c)não mostrar");
-        System.out.println("||AVISO, são 584 funcionários||");
+        System.out.println("Você quer ver os salários SEM o reajuste? (Salário minimo de 1500)");
+        System.out.println("(a) mostrar todos\n(b) ver apenas o primeiro\n(c) não mostrar");
         opt = input.next().charAt(0);
         if (opt == 'a' || opt == 'A') {
-            for (int i = 0; i < funcionario.length; i++) {
-                System.out.println("Funcionário ["+(i+1)+"]");
-                funcionario[i].showsalarium();
+            for (int i = 0; i < funcionarios.length; i++) {
+                System.out.println("Funcionário [" + (i + 1) + "]");
+                funcionarios[i].showsalarium();
             }
         } else if (opt == 'b' || opt == 'B') {
-            System.out.println("Funcionário ["+1+"]");
-            funcionario[0].showsalarium();
+            System.out.println("Funcionário [" + 1 + "]");
+            funcionarios[0].showsalarium();
         }
+        
+        // Aplicação do reajuste
+        for (int i = 0; i < funcionarios.length; i++) {
+            funcionarios[i].reajuste();
+        }
+        
+        System.out.println("Você quer ver os salários COM o reajuste?");
+        System.out.println("(a) mostrar todos\n(b) ver apenas o primeiro\n(c) não mostrar");
+        opt = input.next().charAt(0);
+        if (opt == 'a' || opt == 'A') {
+            for (int i = 0; i < funcionarios.length; i++) {
+                System.out.println("Funcionário [" + (i + 1) + "]");
+                funcionarios[i].showsalarium();
+            }
+        } else if (opt == 'b' || opt == 'B') {
+            System.out.println("Funcionário [" + 1 + "]");
+            funcionarios[0].showsalarium();
+        }
+        
         input.close();
     }
+
 }
+

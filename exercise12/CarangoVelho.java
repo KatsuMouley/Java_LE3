@@ -1,5 +1,5 @@
 
-
+package exercise12;
 public class CarangoVelho {
     int year;
     double valor;
@@ -8,9 +8,10 @@ public class CarangoVelho {
     public CarangoVelho(int year, double valor){
         this.year = year;
         this.valor = valor;
+        this.finalValue = valor;
     }
     public void desconto(int A){
-        this.finalValue = valor-((valor/100)*A);
+        this.finalValue -= ((valor/100)*A);
     }
     public void showDesconto(){
         System.out.println(finalValue);
