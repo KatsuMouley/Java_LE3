@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 import exercise1.Ex1;
 import exercise2.Ex2;
@@ -29,9 +28,9 @@ import exercise26.Ex26;
 
 public class Programa{
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
             System.out.printf("Escolha uma atividade para executar\n(1 - 26)\nInput:");
             int value = UL.lerInteiro();
+            UL.linhaEmBranco();
             switch (value) {
                 case 1:
                     Ex1.run();                    
@@ -114,7 +113,6 @@ public class Programa{
 
                 default:
                     break;
-            }
-        input.close();
+        }
     }
 }
