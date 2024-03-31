@@ -1,7 +1,7 @@
 package exercise16;
 
 import java.util.Scanner;
-import java.util.Random;
+import java.util.Random;//estou utilizando random para poupar o usuário de realizar inputs desnecessários
 
 public class Ex16 {
     public static void run() {

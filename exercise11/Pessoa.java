@@ -2,16 +2,16 @@ package exercise11;
 import java.util.Scanner;
 
 public class Pessoa {
-    int sex[]=new int[56], f=0,m=0;
+    int gender[]=new int[56], f=0,m=0;
     Scanner input = new Scanner(System.in);
-    public void getsex() {
-        for (int i = 0; i < sex.length; i++) {
+    public void getgender() {
+        for (int i = 0; i < gender.length; i++) {
                 do {
                     
                 System.out.println("Please input the sex of the person: (1)Male (2)Female; ["+(i+1)+"]");
-                sex[i] = input.nextInt();
+                gender[i] = input.nextInt();
 
-                switch (sex[i]) {
+                switch (gender[i]) {
                     case 1:
                         m++;
                         break;
@@ -19,11 +19,11 @@ public class Pessoa {
                         f++;
                         break;
                 }
-                } while (sex[i] != 1 && sex[i] != 2);
+                } while (gender[i] != 1 && gender[i] != 2);
                 input.nextLine();
         }
     }
-    public void showSex(){
+    public void showgender(){
         System.out.println("There are "+m+" males");
         System.out.println("There are "+f+" females");
     }
