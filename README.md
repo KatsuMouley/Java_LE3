@@ -162,14 +162,21 @@ Nota Final Classificação
 Imprima o nome do estudante, com o seu número, nota final e classificação.
 
 26. Uma seguradora possui nove categorias de seguro baseadas na idade e ocupação do segurado.
+
 Somente pessoas com pelo menos 17 anos e não mais que 70 anos podem adquirir apólices de
-seguro. Quanto às classes de ocupações, foram definidos três grupos de risco: baixo, médio e alto.
-A tabela abaixo fornece as categorias em função da faixa etária e do grupo de risco. Dados nome,
-idade e grupo de risco de um pretendente, determinar e imprimir seus dados e categoria. Caso a
-idade não esteja na faixa necessária, imprimir uma mensagem informando que ele não se enquadra
+seguro.
+
+Quanto às classes de ocupações, foram definidos três grupos de risco: baixo, médio e alto.
+
+A tabela abaixo fornece as categorias em função da faixa etária e do grupo de risco. 
+Dados nome, idade e grupo de risco de um pretendente
+determinar e imprimir seus dados e categoria. 
+Caso a idade não esteja na faixa necessária, imprimir uma mensagem informando que ele não se enquadra
 em nenhuma das categorias ofertadas.
-Grupo de Risco
+
+Grupo de Risco 
 Idade Baixo Médio Alto
+
 17 a 20 1 2 3
 21 a 24 2 3 4
 25 a 34 3 4 5
